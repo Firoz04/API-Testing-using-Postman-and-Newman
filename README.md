@@ -33,3 +33,8 @@ cd API-Testing-using-Postman-and-Newman
 # If you want to run with Newman:
 npm install -g newman   # (if not installed)  
 newman run allAPItesting.postman_collection.json
+```
+## 👤 Author
+
+Md. Firoz Hasan  
+GitHub: [Firoz04](https://github.com/Firoz04)
