@@ -25,14 +25,21 @@ This repository contains a comprehensive suite for API testing using **Postman**
 
 ### Installation & Running Tests  
 
+#### Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/Firoz04/API-Testing-using-Postman-and-Newman.git  
 cd API-Testing-using-Postman-and-Newman  
+```
+#### run with Newman
+```bash
 
-# If you want to run with Newman:
 npm install -g newman   # (if not installed)  
 newman run allAPItesting.postman_collection.json
+```
+#### To generate HTML reports using Newman
+```bash
+npm i newman-report-htmlextra-g #(if not installed)
+newman run allAPItesting.postman_collection.json -r htmlextra
 ```
 ## 👤 Author
 
