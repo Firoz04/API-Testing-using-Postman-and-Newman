@@ -21,7 +21,8 @@ This repository contains a comprehensive suite for API testing using **Postman**
 ### Prerequisites  
 - Node.js (v14+ recommended)  
 - Newman (install globally or via npm)  
-- Postman (for interactive testing)  
+- Postman (for interactive testing)
+- website: [evershop](https://demo.evershop.io/)  
 
 ### Installation & Running Tests  
 
